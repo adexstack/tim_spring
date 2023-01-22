@@ -3,6 +3,7 @@ package academy.learnprogramming;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 // By default, container creates all beans in singleton instance
@@ -16,7 +17,7 @@ public class Main {
 
         // create context (container)
         ConfigurableApplicationContext context
-                = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
+                = new AnnotationConfigApplicationContext(AppConfig.class);
 
         // get number generator bean from context (container)
         NumberGenerator numberGenerator
