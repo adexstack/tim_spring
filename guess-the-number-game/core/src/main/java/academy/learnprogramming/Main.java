@@ -4,13 +4,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-// By default, container creates all beans in singleton instance
 public class Main {
-    private static final Logger log = LoggerFactory.getLogger(Main.class);
 
-    private static final String CONFIG_LOCATION = "beans.xml";
+    private static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
         log.info("Guess The Number Game");
@@ -26,13 +23,18 @@ public class Main {
         // call method next() to get a random number
         int number = numberGenerator.next();
 
-        // log generated number using advanced slf4j parameterised logging feature (better performance than using +)
+        // log generated number
         log.info("number = {}", number);
 
-        // get game bean from context (container)
-        Game game = context.getBean(Game.class);
+        // get message generator bean from context (container)
+        MessageGenerator messageGenerator =
+                context.getBean(MessageGenerator.class);
+        log.info("getMainMessage= {}", messageGenerator.getMainMessage());
+        log.info("getResultMessage= {}", messageGenerator.getResultMessage());
 
         // close context (container)
         context.close();
+
+
     }
 }
