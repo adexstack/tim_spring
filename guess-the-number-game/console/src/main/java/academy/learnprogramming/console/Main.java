@@ -8,8 +8,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+<<<<<<< HEAD
 public class Mains {
 
+=======
+public class Main {
+>>>>>>> non trivial
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {

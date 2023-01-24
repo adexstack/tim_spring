@@ -12,9 +12,13 @@ import org.springframework.stereotype.Component;
 import java.util.Scanner;
 
 @Component
+<<<<<<< HEAD
 public class ConsoleNumberGuesss {
 
     // == constants ==
+=======
+public class ConsoleNumberGuess{
+>>>>>>> non trivial
     private static final Logger log = LoggerFactory.getLogger(ConsoleNumberGuess.class);
 
     // == fields ==
@@ -49,7 +53,11 @@ public class ConsoleNumberGuesss {
                     break;
                 }
 
+<<<<<<< HEAD
                 game.resets();
+=======
+game.reset();
+>>>>>>> non trivial
             }
 
         }
