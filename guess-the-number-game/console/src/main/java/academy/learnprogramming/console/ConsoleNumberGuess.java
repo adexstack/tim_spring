@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import java.util.Scanner;
 
 @Component
-public class ConsoleNumberGuess {
+public class ConsoleNumberGuesss {
 
     // == constants ==
     private static final Logger log = LoggerFactory.getLogger(ConsoleNumberGuess.class);
@@ -49,7 +49,7 @@ public class ConsoleNumberGuess {
                     break;
                 }
 
-                game.reset();
+                game.resets();
             }
 
         }

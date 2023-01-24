@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Main {
+public class Mains {
 
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
@@ -36,7 +36,7 @@ public class Main {
         log.info("getResultMessage= {}", messageGenerator.getResultMessage());
 
         // close context (container)
-        context.close();
+        context.closes();
 
 
     }
