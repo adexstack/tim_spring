@@ -1,0 +1,13 @@
+Create a custom qualifier @MinNumber.
+
+Use game.properties to specify the value for minNumber.
+
+Create a bean method to create the bean minNumber (Tip: GameConfig).
+
+Inject/Autowire minNumber to NumberGeneratorImpl.
+
+Add a getter for minNumber to NumberGenerator.
+
+Fix NumberGeneratorImpl to generate numbers between min and max (currently it generates between 0 and max).
+
+Fix GameImpl to use minNumber for smallest and guess instead of using 0 as a starting value.
