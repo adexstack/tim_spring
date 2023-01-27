@@ -69,7 +69,18 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
+                    <!-- adding this to solve missing webxml issue, add this to project to remove this -->
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <!-- Tim used <artifactId>cargo-maven3-plugin</artifactId> -->
+            <plugin>
+                <groupId>org.codehaus.cargo</groupId>
+                <artifactId>cargo-maven2-plugin</artifactId>
+                <version>1.9.0</version>
+                <configuration>
+                    <containerId>tomcat9x</containerId>
+                    <type>embedded</type>
                 </configuration>
             </plugin>
         </plugins>
