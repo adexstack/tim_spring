@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98bf5e4-6c43-4820-8c46-9658c8694224" name="Default" comment="Added implementation for Model and Model attribute">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/service/DemoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a98bf5e4-6c43-4820-8c46-9658c8694224" name="Default" comment="Added @Service implementation">
       <change beforePath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/todo-list/WEB-INF/view/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/todo-list/WEB-INF/view/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/SESSIONS.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/welcome_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/todo-list-1.0-SNAPSHOT/WEB-INF/view/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/todo-list-1.0-SNAPSHOT/WEB-INF/view/welcome.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674925797003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added @Service implementation">
+      <created>1674928755340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674928755340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -415,7 +412,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added implementation for View Resolver and View" />
     <MESSAGE value="Added implementation for Model and Model attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added implementation for Model and Model attribute" />
+    <MESSAGE value="Added @Service implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added @Service implementation" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
