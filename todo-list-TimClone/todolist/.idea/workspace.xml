@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98bf5e4-6c43-4820-8c46-9658c8694224" name="Default" comment="Added @Service implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/controller/TodoItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/model/TodoData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/util/Mappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/util/ViewNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/items_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/service/TodoItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/service/TodoItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/SESSIONS.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/todo-list/META-INF/maven/academy.learnprogramming/todo-list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/todo-list/META-INF/maven/academy.learnprogramming/todo-list/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/SESSIONS.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/welcome_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/controller/TodoItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/controller/TodoItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/model/TodoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/model/TodoData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/items_005flist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/items_005flist_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -26,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -222,6 +220,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="academy.learnprogramming.service" />
       <recent name="academy.learnprogramming.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
