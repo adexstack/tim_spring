@@ -8,6 +8,7 @@ import academy.learnprogramming.util.Mappings;
 import academy.learnprogramming.util.ViewNames;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Required;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -44,8 +45,15 @@ public class TodoItemController {
     }
 
     @GetMapping(Mappings.ADD_ITEM)
-    public String addEditItem(Model model) {
-        TodoItem todoItem = new TodoItem("", "", LocalDate.now());
+    public String addEditItem(@RequestParam(required = false, defaultValue = "-1") int id,
+                              Model model) {
+        log.info("editing id ={}", id);
+        TodoItem todoItem = todoItemService.getItem(id);
+
+        if(todoItem == null) {
+            todoItem = new TodoItem("", "", LocalDate.now());
+        }
+
         model.addAttribute(AttributeNames.TODO_ITEM, todoItem);
         return ViewNames.ADD_ITEM;
     }
@@ -53,7 +61,15 @@ public class TodoItemController {
     @PostMapping(Mappings.ADD_ITEM)
     public String processItem(@ModelAttribute(AttributeNames.TODO_ITEM) TodoItem todoItem) {
         log.info("todoItem from from = {}", todoItem);
-        todoItemService.addItem(todoItem);
+
+        // if id is 0, indicates it is a new item
+        if(todoItem.getId() == 0) {
+            todoItemService.addItem(todoItem);
+        } else {
+            // it isn't a new item, hence, updating the existing item
+            todoItemService.updateItem(todoItem);
+        }
+
         return "redirect:/" + Mappings.ITEMS;
     }
 
