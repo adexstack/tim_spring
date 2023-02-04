@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98bf5e4-6c43-4820-8c46-9658c8694224" name="Default" comment="Added Todo Item Service">
+      <change afterPath="$PROJECT_DIR$/../../boot-demo/src/main/java/academy/learnprogramming/bootdemo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../boot-demo/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../boot-demo/src/main/webapp/WEB-INF/view/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../boot-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../boot-demo/src/test/java/academy/learnprogramming/bootdemo/BootDemoApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/todo-list/META-INF/maven/academy.learnprogramming/todo-list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/todo-list/META-INF/maven/academy.learnprogramming/todo-list/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/SESSIONS.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/add_005fitem_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/add_005fitem_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/items_005flist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/items_005flist_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/todo-list/org/apache/jsp/WEB_002dINF/view/view_005fitem_jsp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
