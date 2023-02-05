@@ -10,3 +10,6 @@ Note that Tomacat only started when the Main class in we module is run (not in c
 because only the web module has the Spring MVC (Which has Tomcat).
 Note that the web and console module are independent of each other (doesn't know about each other
 ) they only share the core module.
+
+Added spring-boot-devtools dependency to POM
+scope is "runtime" in order to ensure accidental dependency and only use this at runtime in transitive
