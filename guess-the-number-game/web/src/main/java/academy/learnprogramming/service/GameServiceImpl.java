@@ -10,7 +10,7 @@ import javax.annotation.PostConstruct;
 
 @Slf4j
 @Service
-public class GameServiceImpl implements GameService{
+public class GameServiceImpl implements GameService {
 
     // == fields ==
     private final Game game;
@@ -25,11 +25,11 @@ public class GameServiceImpl implements GameService{
 
     // == init ==
     @PostConstruct
-    public void init()
-    {
+    public void init() {
         log.info("number = {}", game.getNumber());
         log.info("mainMessage = {}", messageGenerator.getMainMessage());
     }
+
     // == public methods ==
     @Override
     public boolean isGameOver() {
