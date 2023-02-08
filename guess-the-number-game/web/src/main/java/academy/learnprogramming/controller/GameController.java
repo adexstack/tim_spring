@@ -28,6 +28,10 @@ public class GameController {
     // == request methods ==
     @GetMapping(GameMappings.PLAY)
     public String play(Model model) {
+        model.addAttribute("PLAY", ViewNames.PLAY);
+        model.addAttribute("MAIN_MESSAGE", AttributeNames.MAIN_MESSAGE);
+        model.addAttribute("RESULT_MESSAGE", AttributeNames.RESULT_MESSAGE);
+
         model.addAttribute(AttributeNames.MAIN_MESSAGE, gameService.getMainMessage());
         model.addAttribute(AttributeNames.RESULT_MESSAGE, gameService.getResultMessage());
         log.info("model= {}", model);
@@ -43,6 +47,12 @@ public class GameController {
     public String processMessage(@RequestParam int guess) {
         log.info("guess= {}", guess);
         gameService.checkGuess(guess);
+        return GameMappings.REDIRECT_PLAY;
+    }
+
+    @GetMapping(GameMappings.RESTART)
+    public String restart() {
+        gameService.reset();
         return GameMappings.REDIRECT_PLAY;
     }
 }
