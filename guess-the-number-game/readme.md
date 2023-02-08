@@ -24,3 +24,5 @@ hardcoded with this
 {/restart}
 {/}
 {/play}
+
+Added fragments (reusable template) for header and footer. Using the footer template in previews only.
