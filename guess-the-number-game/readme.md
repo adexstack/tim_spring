@@ -26,3 +26,6 @@ hardcoded with this
 {/play}
 
 Added fragments (reusable template) for header and footer. Using the footer template in previews only.
+
+Version 2.0.3 doesn't support Decoupled Logic out of the box, hence created DecoupledLogicSetup.java
+Implemented Template logic decoupling to isolate normal HTML file from Thymeleaf file
