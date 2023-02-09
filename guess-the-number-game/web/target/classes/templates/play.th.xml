@@ -1,12 +1,16 @@
 <thlogic>
     <attr sel="#headId"
          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#game-title" th:text="#{game.title}"/>
     <attr sel="#main-message"
           th:text="${__${MAIN_MESSAGE}__}"/>
     <attr sel="#result-message"
           th:text="${__${RESULT_MESSAGE}__}"/>
     <attr sel="#game-form"
           th:action="${__${PLAY}__}"/>
+    <attr sel = "#enter-guess" th:text="#{game.enter.guess}"/>
+    <attr sel = "#submit" th:value="#{game.submit}"/>
+    <attr sel = "#created-by" th:text="#{game.createdBy}"/>
     <attr sel="#footerId"
           th:replace="~{fragments/footer :: footerFragment}"/>
 </thlogic>

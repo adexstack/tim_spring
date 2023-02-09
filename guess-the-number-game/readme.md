@@ -30,3 +30,4 @@ Added fragments (reusable template) for header and footer. Using the footer temp
 Version 2.0.3 doesn't support Decoupled Logic out of the box, hence created DecoupledLogicSetup.java
 Implemented Template logic decoupling to isolate normal HTML file from Thymeleaf file
 Set thymeleaf logging in logback-spring.xml
+Internationlization (i18n) to allow application easily adapted to various languages
