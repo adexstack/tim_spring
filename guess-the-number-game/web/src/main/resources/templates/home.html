@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head :: headFragment}">
+<html lang="en">
+<head id="headId">
     <meta charset="UTF-8">
     <title>Title content</title>
 </head>
@@ -8,14 +8,13 @@
     <div align="center">
         <h1>Welcome to Guess the Number Game</h1>
         <h3>
-            <a th:href="@{/play}"
-               th:text="Play"
+            <a id="playId"
                href="play.html">
                 Click to Play
             </a>
         </h3>
 
-        <div th:replace="~{fragments/footer :: footerFragment}">Footer goes here</div>
+        <div id="footerId"></div>
     </div>
 </body>
 </html>

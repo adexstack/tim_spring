@@ -1,0 +1,4 @@
+<thlogic>
+    <attr sel="#footerFragment"
+          th:fragment="footerFragment"/>
+</thlogic>
