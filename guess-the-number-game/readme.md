@@ -40,3 +40,6 @@ Added: public FixedLocaleResolver localeResolver() in WebConfig class
 
 Request Interception: useful for cross-cutting concerns to avoid repetitive handler code like: checking user permission, checking security, 
 changing globally used params in Spring model
+
+After implementing locale in WebConfig.java class
+Changing language on the url to http://localhost:8080/?lang=es changes language to spanish
