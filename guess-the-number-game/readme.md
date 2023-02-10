@@ -31,3 +31,8 @@ Version 2.0.3 doesn't support Decoupled Logic out of the box, hence created Deco
 Implemented Template logic decoupling to isolate normal HTML file from Thymeleaf file
 Set thymeleaf logging in logback-spring.xml
 Internationlization (i18n) to allow application easily adapted to various languages
+
+Tim's key value for locale (for internationalization) in application.properties doesn't work for my Spring Boot 2.7.8 version
+Workaround using:
+https://www.udemy.com/course/java-spring-framework-masterclass/learn/lecture/11095626#questions/6580776
+Added: public FixedLocaleResolver localeResolver() in WebConfig class
