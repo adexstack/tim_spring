@@ -12,6 +12,12 @@ import java.util.Locale;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
+    // == constants ==
+    // for Spanish, substitute Language, Country as es, ES
+    // for English, substitute Language, Country as en, UK
+    public static final String LANGUAGE = "en";
+    public static final String COUNTRY = "UK";
+
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName(ViewNames.HOME);
@@ -19,6 +25,9 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Bean
     public FixedLocaleResolver localeResolver() {
-        return new FixedLocaleResolver(new Locale("es", "ES"));
+        //return new FixedLocaleResolver(new Locale("es", "ES"));
+        return new FixedLocaleResolver(new Locale(LANGUAGE, COUNTRY));
+
     }
+
 }

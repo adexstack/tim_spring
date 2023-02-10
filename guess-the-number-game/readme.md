@@ -36,3 +36,6 @@ Tim's key value for locale (for internationalization) in application.properties 
 Workaround using:
 https://www.udemy.com/course/java-spring-framework-masterclass/learn/lecture/11095626#questions/6580776
 Added: public FixedLocaleResolver localeResolver() in WebConfig class
+
+Request Interception: useful for cross-cutting concerns to avoid repetitive handler code like: checking user permission, checking security, 
+changing globally used params in Spring model
