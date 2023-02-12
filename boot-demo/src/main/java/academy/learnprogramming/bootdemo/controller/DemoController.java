@@ -14,7 +14,8 @@ public class DemoController {
     @GetMapping("demo")
     public String demo() {
         log.info("demo method called");
-        return "Hello Spring Boot";
+        int mult = 2 * 10;
+        return "Hello Spring Boot " + mult;
     }
 
     @GetMapping("welcome")
